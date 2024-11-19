@@ -13,8 +13,8 @@ void loop()//SÜREKLİ OLARAK TEKRARLAYAN BÖLÜM (SONSUZ DÖNGÜ)
 {
   digitalWrite(kirmizi, 1);
   digitalWrite(beyaz, 0);
-  delay(2000); // Wait for 1000 millisecond(s)
+  delay(500); // Wait for 1000 millisecond(s)
   digitalWrite(kirmizi, 0);
   digitalWrite(beyaz, 1);
-  delay(1000); // Wait for 1000 millisecond(s)
+  delay(500); // Wait for 1000 millisecond(s)
 }
